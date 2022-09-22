@@ -10,7 +10,7 @@ public class AT04_GlobalVariables {
 
     @Test
     public void test05() {
-        //local variabless
+        //local variablesss
         int l = 30;
         //data for this variable k is comming from the global variables
         int k  = i+j;
