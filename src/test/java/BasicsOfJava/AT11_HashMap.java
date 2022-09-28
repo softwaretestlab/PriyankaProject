@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
 
-public class AT12_HashMap {
+public class AT11_HashMap {
     @Test
     public void test16(){
         // at here we created an object of Hashmap and this hashmap takes Stringer and Integer as Key:Value
