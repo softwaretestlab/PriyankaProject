@@ -14,10 +14,8 @@ public class AT03_XpathLearning {
     public void xpath() throws InterruptedException {
         //Setting up chromedriver.
         WebDriverManager.chromedriver().setup();
-        //options
-        ChromeOptions chromeOptions = new ChromeOptions();
         //we create an object of WebDriver
-        WebDriver driver = new ChromeDriver(chromeOptions);
+        WebDriver driver = new ChromeDriver();
         //At this point browser will be opened
         //maximize browser
         driver.manage().window().maximize();
@@ -29,6 +27,8 @@ public class AT03_XpathLearning {
         driver.findElement(By.xpath("//a[@href='https://www.harveynorman.com.au/gift-cards']")).click();
         Thread.sleep(15000);
         driver.findElement(By.xpath("//span[contains(text(),'Store finder')]")).click();
+
+      //  driver.findElement(By.xpath("//a[@ href='https://www.harveynorman.com.au/customer/account/login' and @class='hidden-xs']"))
 
     }
 }
