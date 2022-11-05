@@ -1,4 +1,5 @@
 package SeleniumLearning;
+import PropertiesFile.ReadPropertiesFile;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -22,7 +23,8 @@ public class AT13_ExcelDataUsage {
         driver.manage().window().maximize();
         driver.get("https://echoecho.com/htmlforms01.htm");
         //location of the excel workbook
-        Xls_Reader reader = new Xls_Reader("F:\\SeleniumMaterial-StudentsDistribution\\06_DataDrivenTesting\\05_SeleniumParameterization\\EchoEcho.xlsx");
+//        Xls_Reader reader = new Xls_Reader("C:\\Users\\softw\\IdeaProjects\\PriyankaProject01\\src\\main\\java\\Resources\\EchoEcho.xlsx");
+        Xls_Reader reader = new Xls_Reader(ReadPropertiesFile.PropFile("ExcelDataReader"));
         //count of rows in the excel sheet
         int rowcount=reader.getRowCount("RegTestData");
         System.out.println("rowcount :"+rowcount);
