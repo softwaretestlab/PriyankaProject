@@ -1,6 +1,7 @@
 package JavaOOPSconcepts;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 
 public class AT04_Encapsulation02 {
     @Test

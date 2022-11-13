@@ -1,6 +1,6 @@
 package JavaOOPSconcepts;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 //using extends keyword we are inherting all the parent methods
 public class AT06_InHeritance02 extends AT05_InHeritance01 {

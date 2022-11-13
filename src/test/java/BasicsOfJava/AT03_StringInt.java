@@ -1,6 +1,6 @@
 package BasicsOfJava;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class AT03_StringInt {
 

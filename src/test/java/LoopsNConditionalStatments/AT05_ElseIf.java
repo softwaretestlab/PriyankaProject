@@ -1,6 +1,6 @@
 package LoopsNConditionalStatments;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class AT05_ElseIf {
     @Test

@@ -1,6 +1,6 @@
 package JavaOOPSconcepts;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class AT02_constructor02 {
     @Test

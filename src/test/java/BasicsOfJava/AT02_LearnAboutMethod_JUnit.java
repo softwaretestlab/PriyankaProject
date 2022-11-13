@@ -1,6 +1,7 @@
 package BasicsOfJava;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 
 public class AT02_LearnAboutMethod_JUnit {
     // this is how we create a method  test01,test02
