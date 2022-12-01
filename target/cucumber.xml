@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.491">
+    <testcase classname="test" name="First test" time="0.106">
+        <system-out>
+            <![CDATA[Given user opens browser first..............................................passed
+When user on homepage first.................................................passed
+Then user clicks on account link first......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="test" name="Second test" time="0.004">
+        <system-out>
+            <![CDATA[Given user opens browser Second.............................................passed
+When user on homepage Second................................................passed
+Then user clicks on account link Second.....................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

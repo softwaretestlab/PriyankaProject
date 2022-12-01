@@ -1,0 +1,12 @@
+
+@RegressionTest @SanityTesting
+Scenario: First test                     [90m# src/test/java/FeatureFiles/HooksLearning.feature:4[0m
+  [32mGiven [0m[32muser opens browser first[0m         [90m# StepDefinations.HooksLearning01.user_opens_browser_first()[0m
+  [32mWhen [0m[32muser on homepage first[0m            [90m# StepDefinations.HooksLearning01.user_on_homepage_first()[0m
+  [32mThen [0m[32muser clicks on account link first[0m [90m# StepDefinations.HooksLearning01.user_clicks_on_account_link_first()[0m
+
+@RegressionTest @SmokeTesting
+Scenario: Second test                     [90m# src/test/java/FeatureFiles/HooksLearning.feature:9[0m
+  [32mGiven [0m[32muser opens browser Second[0m         [90m# StepDefinations.HooksLearning02.user_opens_browser_second()[0m
+  [32mWhen [0m[32muser on homepage Second[0m            [90m# StepDefinations.HooksLearning02.user_on_homepage_second()[0m
+  [32mThen [0m[32muser clicks on account link Second[0m [90m# StepDefinations.HooksLearning02.user_clicks_on_account_link_second()[0m
